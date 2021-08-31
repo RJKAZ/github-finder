@@ -1,7 +1,3 @@
-// this will be our initial state and our actions
-
-// we're going to be using Types
-
 import React, { useReducer } from 'react';
 import axios from 'axios';
 import GithubContext from './githubContext';
@@ -35,7 +31,7 @@ const GithubState = (props) => {
 
     dispatch({
       type: SEARCH_USERS,
-      payload: res.data,
+      payload: res.data.items
     });
   };
 
@@ -56,6 +52,7 @@ const GithubState = (props) => {
         user: state.user,
         repos: state.repos,
         loading: state.loading,
+        searchUsers
       }}
     >
       {props.children}
