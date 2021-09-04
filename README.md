@@ -1,3 +1,10 @@
+3rd attempt to deploying to netlify
+1st was with my Mac, couldn't get the CLI to install
+tried doing it manually and the deploy failed.
+2nd try was with my PC, got the CLI to install, but it would take forever to authorize, no end in site. 
+But now I'm trying to make the actual build, npm run build so will try doing it directly on Netlify 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
