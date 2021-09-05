@@ -1,9 +1,8 @@
-3rd attempt to deploying to netlify
-1st was with my Mac, couldn't get the CLI to install
-tried doing it manually and the deploy failed.
-2nd try was with my PC, got the CLI to install, but it would take forever to authorize, no end in site. 
-But now I'm trying to make the actual build, npm run build so will try doing it directly on Netlify 
+Application that uses the Github API's to search Github users by name. 
 
+Deployed on Netlify using the CLI 
+
+https://github-finder-rjkaz.netlify.app
 
 # Getting Started with Create React App
 
